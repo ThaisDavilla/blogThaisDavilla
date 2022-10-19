@@ -1,4 +1,6 @@
-* {
+* { 
+    margin:0;
+    padding: 0;
     box-sizing: border-box;
   }
   
@@ -99,5 +101,75 @@
     text-align: center;
     color: #C4C4C4;
     padding: 30px;
+  }
+  
+    @media (max-width:800px){
+      .caixa-header {
+        background-image: url('../img/mobile.jpg');
+        
+      }
+      .btn-branco{
+        background-color: white;
+        padding: 15px;
+        width: 190px;
+        border-radius: 80px;
+      }
+      /*=========SECAO DE CONTEUDO============*/
+      
+      h2 {
+        font-size: 1.5em;
+        color: #C4C4C4;
+        margin: 1vh;
+        
+      }
+      
+      .caixa-secao-conteudo{
+        margin: 2vh auto;
+        width: 90%;
+        
+      }
+      
+      .caixa-somente-conteudo{
+        width: 90%;
+        margin:0 auto;
+        
+      }
+      
+      .btn-roxo {
+        display: none;
+      }
+      
+      .caixa-texto-sobre-mim{
+        width: 100%;
+        
+      }
+      
+     .caixa-lista-sobre-mim{
+        width: 40%;
+        margin-left: 50px;
+      }
+      
+      /*============redes sociais============*/
+      
+      .caixa-item-rede-social{
+        padding: 10px;
+        text-align: center;
+        background-color:#770d77;
+        width: 30vw;
+        height: 20vh;
+        margin-right: 10px;
+       
+      }
+      
+       .caixa-mae-rede-social{
+        height: 45vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 1vh;
+        
+      }
+      
+      
   }
   
